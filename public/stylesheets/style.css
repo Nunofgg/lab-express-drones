@@ -1,8 +1,85 @@
 body {
-  padding: 50px;
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00b7ff;
+  text-decoration: none;
+}
+
+.home-page {
+  background-image: url("/images/drone-gettyimages-959242024.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+.list-page {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.list-page a {
+  text-decoration: none;
+}
+
+.single-card {
+  color: #606466;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #B9B7BD;
+  border-radius: 40px;
+  width: 60px;
+  padding: 20px;
+}
+
+.single-card p {
+  color: #EEEDE7;
+}
+
+.single-card button {
+  background-color: #EEEDE7;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+}
+
+.form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #606466;
+}
+
+.form-page form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  height: 500px;
+}
+
+.form-page button {
+  background-color: #EEEDE7;
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+}
+
+.form-page input {
+  background-color: #B9B7BD;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
 }
